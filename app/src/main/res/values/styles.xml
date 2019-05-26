@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorGrey2</item>
+        <item name="colorPrimaryDark">@color/colorGrey1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BottomNavTheme" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TabTheme" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>
